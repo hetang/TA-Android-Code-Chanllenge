@@ -1,4 +1,4 @@
-# Welcome to Android TripAction
+# Welcome to Android TripActions
 
 ### What is this repository for? ###
 
