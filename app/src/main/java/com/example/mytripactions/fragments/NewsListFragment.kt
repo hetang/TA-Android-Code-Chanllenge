@@ -30,7 +30,6 @@ class NewsListFragment : Fragment(R.layout.fragment_news_list) {
                 setHasFixedSize(true)
             }
 
-            //maybe let them figure out pull to refresh?
             swipeRefreshLayout.setOnRefreshListener {
                 swipeRefreshLayout.isRefreshing = false
             }
