@@ -7,14 +7,14 @@ import io.reactivex.rxjava3.core.Observable
 class NewsRepositoryImpl(private val newsApi: NewsApi) : NewsRepository {
 
     override suspend fun getNews(): NewsResponse {
-        return NewsResponse(emptyList())
+        TODO ( "empty function for now")
     }
 
     override fun getNewsObservable(): Observable<NewsResponse> {
-        return Observable.create { }
+        TODO ( "empty function for now")
     }
 
     override fun getNewsCall(): Observable<NewsResponse> {
-        return Observable.create { }
+        TODO ( "empty function for now")
     }
 }
