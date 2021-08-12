@@ -87,4 +87,3 @@ lint/tmp/
 .build/
 
 local.properties
-gradle.properties
